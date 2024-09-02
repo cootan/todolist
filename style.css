@@ -1,0 +1,55 @@
+  * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: poppins;
+  }
+
+  #myBtn {
+      background-color: coral;
+  }
+
+  h1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 10px;
+    margin: 10px 10px;
+  }
+
+  #main{
+    display: flexbox;
+  }
+
+  #myInput{
+
+padding: 10px 10px;
+margin: 10px 10px;
+  }
+
+  #myBtn{
+    padding: 10px 10px;
+    margin: 10px 10px;
+    align-items: center;
+    justify-content: space-around;
+  }
+  li{
+    cursor: pointer;
+    font-size: larger;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    justify-content: space-around;
+
+  }
+
+li:hover{
+transform: scale(2);
+
+}
+
+  li:active{
+    color:red;
+  }
